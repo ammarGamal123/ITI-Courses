@@ -5,21 +5,28 @@ namespace Day_05
 {
    class Class1
    {
-      public static void funTwo()   
-      {
-         // int X = 0;
-         // int Y = 7 / X;
-         StackTrace sTrace = new StackTrace();
-         StackFrame[] sFrames = sTrace.GetFrames();
-
-         for (int i = 0; i < sFrames.Length; i++)
-         {
-            Console.WriteLine(sFrames[i].GetMethod()?.Name);
-         }
-      }
+      // public static void funTwo()   
+      // {
+      //    // int X = 0;
+      //    // int Y = 7 / X;
+      //    StackTrace sTrace = new StackTrace();
+      //    StackFrame[] sFrames = sTrace.GetFrames();
+      //
+      //    for (int i = 0; i < sFrames.Length; i++)
+      //    {
+      //       Console.WriteLine(sFrames[i].GetMethod()?.Name);
+      //    }
+      // }
       public static void funOne()
       {
-         funTwo();
+         // funTwo();
+      }
+
+      public static void SWAP(ref int X,ref  int Y)
+      {
+         X = Y * X;
+         Y = X / Y;
+         X = X / Y;
       }
       public static void PrintLine()
       {
@@ -34,16 +41,12 @@ namespace Day_05
 
       public static void Main()
       {
-         int X;
-         Console.WriteLine("Enter New Value: ");
-         PrintLine();
-         X = int.Parse(Console.ReadLine());
+         int A = 21, B = 11;
          
-         Console.WriteLine( ++ X);
-         
-         PrintLine();
-         
-         ++ X;
+         SWAP(ref A , ref B);
+
+         Console.WriteLine($"A = {A}");
+         Console.WriteLine($"B = {B}");
 
       }
    }
