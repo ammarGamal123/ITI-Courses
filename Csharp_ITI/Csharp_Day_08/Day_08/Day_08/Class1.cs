@@ -53,7 +53,7 @@ public class Class1
     
     
     
-    public static void DoSomeWork()
+    public static void DoSomeWork() 
     {
         int X, Y, Z;
         try
