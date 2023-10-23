@@ -7,14 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cc486e2-fa6f-4d04-8ac9-e10e2b649bce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Day_11/Parent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_11/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day_11/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_11/bin/Debug/net7.0/Day_11.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Day_11/bin/Debug/net7.0/Day_11.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_11/bin/Debug/net7.0/Day_11.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Day_11/bin/Debug/net7.0/Day_11.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_11/obj/Debug/net7.0/Day_11.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Day_11/obj/Debug/net7.0/Day_11.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_11/obj/Debug/net7.0/Day_11.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Day_11/obj/Debug/net7.0/Day_11.pdb" afterDir="false" />
-    </list>
+    <list default="true" id="6cc486e2-fa6f-4d04-8ac9-e10e2b649bce" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +18,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/216ef11b57214a2b89fe1ef5ec88009ca29c00/43/50e49b6a/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Day_11/Parent.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Day_11/Program.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Toolset" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -43,10 +41,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/ammarhammad/Documents/ITI_Courses/C#_Course/Csharp_ITI/Csharp_Day_11",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   },
@@ -87,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1697420870464</updated>
       <workItem from="1697420871583" duration="2876000" />
-      <workItem from="1697806530134" duration="5052000" />
+      <workItem from="1697806530134" duration="5957000" />
     </task>
     <servers />
   </component>
