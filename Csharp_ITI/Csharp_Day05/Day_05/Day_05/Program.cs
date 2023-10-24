@@ -100,25 +100,25 @@
             
             // Protective Programming
             
-            // if (Y != null)
-            //     X = (int)Y;
-            // else
-            // {
-            //     X = 0;
-            // }
-            //
-            
-            // another way to protect your code against Nullable value
-            
-            // if (Y.HasValue)
-            //     X = Y.Value;
-            // else
-            //     X = 0;
+            if (Y != null)
+                X = (int)Y;
+            else
+            {
+                X = 0;
+            }
             
             
-            // another way in a single line 
+            another way to protect your code against Nullable value
             
-            // X = (Y.HasValue ? Y.Value : 0);
+            if (Y.HasValue)
+                X = Y.Value;
+            else
+                X = 0;
+            
+            
+            another way in a single line 
+            
+            X = (Y.HasValue ? Y.Value : 0);
             
             X = Y ?? 0;
             
@@ -132,10 +132,10 @@
             
             int[] Arr = default;
             
-            // for (int i = 0; Arr != null &&  i < Arr.Length; i++)
-            // {
-            //     Console.WriteLine(Arr[i]);
-            // }
+            for (int i = 0; Arr != null &&  i < Arr.Length; i++)
+            {
+                Console.WriteLine(Arr[i]);
+            }
             
             // Null Propagation Operator / Null Conditional Operator 
             for (int i = 0; i < Arr?.Length; i++)
