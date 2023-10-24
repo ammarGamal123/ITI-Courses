@@ -18,17 +18,17 @@
         {
             #region Interface
             
-            // SeriesByTwo series01 = new();
-            // ProcessSeries(series01);
-            //
-            //
-            // ISeries series02; 
-            // // Valid , Reference to any Class/Struct Implementing ISeries Interface
-            //
-            // // series01 = new ISeries(); Not Valid
-            //
-            // series02 = new FibSeries();
-            // ProcessSeries(series02);
+            SeriesByTwo series01 = new();
+            ProcessSeries(series01);
+            
+            
+            ISeries series02; 
+            // Valid , Reference to any Class/Struct Implementing ISeries Interface
+            
+            // series01 = new ISeries(); Not Valid
+            
+            series02 = new FibSeries();
+            ProcessSeries(series02);
             
             #endregion
 
