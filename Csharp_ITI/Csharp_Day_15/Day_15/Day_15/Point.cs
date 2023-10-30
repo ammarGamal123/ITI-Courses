@@ -9,17 +9,17 @@ public class Point : IComparable<Point>
     public override bool Equals(object obj)
     {
         #region Casting
-        // Point Right = (Point)obj;
+        Point Right = (Point)obj;
 
-        // if (obj is Point)
-        // {
-        //     Point Right = (Point)obj;
-        //     return (X == Right.X) && (Y == Right.Y);
-        // }
-        //
-        // if (obj is Point Right)
-        //     return (X == Right.X && Y == Right.Y);
-        // return false;
+        if (obj is Point)
+        {
+            Point Right = (Point)obj;
+            return (X == Right.X) && (Y == Right.Y);
+        }
+        
+        if (obj is Point Right)
+            return (X == Right.X && Y == Right.Y);
+        return false;
 
         #endregion
 
