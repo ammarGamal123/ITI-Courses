@@ -28,33 +28,33 @@ namespace Day_15
             
             #region Delegate Ex01
             
-            //  1. Delegate Declaration 
-            // StringFunDelDT fPtr;
-            //
-            // // 2. Pointer To Function (Delegate Object) Initialzatoin
-            // fPtr = new StringFunDelDT(StringFunctions.GetLength); 
-            // // fPtr  ===> Static Method , Function (GetLength)
-            //
-            //
-            // // 3. Using Pointer to Function , Call (invoke) Function
-            // int R = fPtr.Invoke("ABC");
-            // Console.WriteLine(R);
-            //
-            // fPtr = new StringFunDelDT(StringFunctions.GetUpChar);
-            //
-            // int L = fPtr.Invoke("ADFasdfADSF");
-            // Console.WriteLine(L);
-            //
-            // StringFunctions S1 = new StringFunctions()
-            // {
-            //     Ch = 'A'
-            // };
-            //
-            // fPtr = new StringFunDelDT(S1.GetCharNum);
-            //
-            // int ans = fPtr("ABCdsaA");
-            // // fPtr.invoke ("ABCdsaA");
-            // Console.WriteLine(ans);
+             1. Delegate Declaration 
+            StringFunDelDT fPtr;
+            
+            // 2. Pointer To Function (Delegate Object) Initialzatoin
+            fPtr = new StringFunDelDT(StringFunctions.GetLength); 
+            // fPtr  ===> Static Method , Function (GetLength)
+            
+            
+            // 3. Using Pointer to Function , Call (invoke) Function
+            int R = fPtr.Invoke("ABC");
+            Console.WriteLine(R);
+            
+            fPtr = new StringFunDelDT(StringFunctions.GetUpChar);
+            
+            int L = fPtr.Invoke("ADFasdfADSF");
+            Console.WriteLine(L);
+            
+            StringFunctions S1 = new StringFunctions()
+            {
+                Ch = 'A'
+            };
+            
+            fPtr = new StringFunDelDT(S1.GetCharNum);
+            
+            int ans = fPtr("ABCdsaA");
+            // fPtr.invoke ("ABCdsaA");
+            Console.WriteLine(ans);
             
             #endregion
             
