@@ -16,57 +16,57 @@ namespace Day_15
     {
         #region Without Delegate
 
-        // public static List<int> FindOdd(List<int> lst)
-        // {
-        //     List<int> Olst = new();
-        //     for (int i = 0; i < lst?.Count; i++)
-        //     {
-        //         if (lst[i] % 2 == 1)
-        //             Olst.Add(lst[i]);
-        //     }
-        //
-        //     return Olst;
-        // }
-        //
-        // public static List<int> FindEven(List<int> lst)
-        // {
-        //     List<int> Olst = new();
-        //     for (int i = 0; i < lst?.Count; i++)
-        //     {
-        //         if (lst[i] % 2 == 0)
-        //             Olst.Add(lst[i]);
-        //     }
-        //
-        //     return Olst;
-        // }
-        //
-        // public static List<int> FindDivBy7(List<int> lst)
-        // {
-        //     List<int> Olst = new();
-        //     for (int i = 0; i < lst?.Count; i++)
-        //     {
-        //         if (lst[i] % 2 == 7)
-        //             Olst.Add(lst[i]);
-        //     }
-        //
-        //     return Olst;
-        // }
+        public static List<int> FindOdd(List<int> lst)
+        {
+            List<int> Olst = new();
+            for (int i = 0; i < lst?.Count; i++)
+            {
+                if (lst[i] % 2 == 1)
+                    Olst.Add(lst[i]);
+            }
+        
+            return Olst;
+        }
+        
+        public static List<int> FindEven(List<int> lst)
+        {
+            List<int> Olst = new();
+            for (int i = 0; i < lst?.Count; i++)
+            {
+                if (lst[i] % 2 == 0)
+                    Olst.Add(lst[i]);
+            }
+        
+            return Olst;
+        }
+        
+        public static List<int> FindDivBy7(List<int> lst)
+        {
+            List<int> Olst = new();
+            for (int i = 0; i < lst?.Count; i++)
+            {
+                if (lst[i] % 2 == 7)
+                    Olst.Add(lst[i]);
+            }
+        
+            return Olst;
+        }
 
         #endregion
 
         #region Non Generic
         
-        // public static List<int> findCondition(List<int> lst, condDelDt condFunc /*Pointer to Condition Function*/)
-        // {
-        //     List<int> oLst = new List<int>();
-        //     for (int i = 0; i < oLst?.Count; i++)
-        //     {
-        //         if (condFunc?.Invoke(lst[i]) == true)
-        //             oLst.Add(lst[i]);
-        //     }
-        //
-        //     return oLst;
-        // }
+        public static List<int> findCondition(List<int> lst, condDelDt condFunc /*Pointer to Condition Function*/)
+        {
+            List<int> oLst = new List<int>();
+            for (int i = 0; i < oLst?.Count; i++)
+            {
+                if (condFunc?.Invoke(lst[i]) == true)
+                    oLst.Add(lst[i]);
+            }
+        
+            return oLst;
+        }
         #endregion
         
         
