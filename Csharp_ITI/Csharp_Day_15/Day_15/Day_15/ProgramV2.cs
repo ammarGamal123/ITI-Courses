@@ -70,7 +70,7 @@ namespace Day_15
         #endregion
         
         
-        public static List<T> findCondition<T>(List<T> lst, condDelDt<T> condFunc /*Pointer to Condition Function*/)
+        public static List<T> findCondition<T>(List<T> lst, Predicate<T> condFunc /*Pointer to Condition Function*/)
         {
             List<T> oLst = new List<T>();
             for (int i = 0; i < oLst?.Count; i++)
@@ -91,7 +91,7 @@ namespace Day_15
 
 
 
-            condDelDt<int> fPtr = new condDelDt<int>(conditionFunctions.chOdd);
+            Predicate<int> fPtr = new Predicate<int>(conditionFunctions.chOdd);
             iLst2 = findCondition(iLst, fPtr);
             
             foreach (var item in iLst2)
@@ -99,7 +99,7 @@ namespace Day_15
 
 
             List<string> nameList = new List<string>() { "Ahmed", "Aly", "Ammar" };
-            condDelDt<string> fPtr2 = new condDelDt<string>(conditionFunctions.chLength);
+            Predicate<string> fPtr2 = new Predicate<string>(conditionFunctions.chLength);
             nameList = findCondition(nameList, fPtr2);
             
             foreach (var item in nameList)
