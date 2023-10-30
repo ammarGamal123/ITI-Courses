@@ -28,7 +28,7 @@ namespace Day_15
             
             #region Delegate Ex01
             
-            // // 1. Delegate Declaration 
+            //  1. Delegate Declaration 
             // StringFunDelDT fPtr;
             //
             // // 2. Pointer To Function (Delegate Object) Initialzatoin
@@ -61,26 +61,26 @@ namespace Day_15
             
             #region Delegate Ex02
             
-            // int[] Arr = { 3, 1, 5, -2 , -4 , 4, 2, 8, 7, 6 };
-            //
-            // // SortingAlgorithms.BSort(Arr);
-            //
-            // // foreach (var i in Arr)
-            // // {
-            // //     Console.WriteLine(i);   
-            // // }
-            //
-            // CompFuncDelDT fPtr2 = (CompFunctions.CompLes);
-            // fPtr2 = CompFunctions.CompLes;
-            // // Implicit Casting from Function to Pointer
-            //
-            // // fPtr2 = CompFunV2.CompAbsGrt;
-            // //SortingAlgorithms.BSort(Arr , fPtr2);
-            //
-            // SortingAlgorithms.BSort(Arr , CompFunV2.CompAbsGrt);
-            //
-            //
-            // foreach (var item in Arr) Console.Write ($"{item} ");
+            int[] Arr = { 3, 1, 5, -2 , -4 , 4, 2, 8, 7, 6 };
+            
+            // SortingAlgorithms.BSort(Arr);
+            
+            // foreach (var i in Arr)
+            // {
+            //     Console.WriteLine(i);   
+            // }
+            
+            CompFuncDelDT fPtr2 = (CompFunctions.CompLes);
+            fPtr2 = CompFunctions.CompLes;
+            // Implicit Casting from Function to Pointer
+            
+            // fPtr2 = CompFunV2.CompAbsGrt;
+            //SortingAlgorithms.BSort(Arr , fPtr2);
+            
+            SortingAlgorithms.BSort(Arr , CompFunV2.CompAbsGrt);
+            
+            
+            foreach (var item in Arr) Console.Write ($"{item} ");
             #endregion
 
 
