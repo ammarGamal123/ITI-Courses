@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Day_15/1.0.0": {
+        "dependencies": {
+          "SortingDLL": "1.0.0"
+        },
+        "runtime": {
+          "Day_15.dll": {}
+        }
+      },
+      "SortingDLL/1.0.0": {
+        "runtime": {
+          "SortingDLL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Day_15/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SortingDLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

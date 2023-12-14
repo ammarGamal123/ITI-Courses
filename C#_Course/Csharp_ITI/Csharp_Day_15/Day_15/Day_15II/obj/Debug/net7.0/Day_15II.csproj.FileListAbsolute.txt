@@ -1,0 +1,12 @@
+/home/ammarhammad/Documents/ITI_Courses/C#_Course/Csharp_ITI/Csharp_Day_15/Day_15/Day_15II/bin/Debug/net7.0/Day_15II.deps.json
+/home/ammarhammad/Documents/ITI_Courses/C#_Course/Csharp_ITI/Csharp_Day_15/Day_15/Day_15II/bin/Debug/net7.0/Day_15II.dll
+/home/ammarhammad/Documents/ITI_Courses/C#_Course/Csharp_ITI/Csharp_Day_15/Day_15/Day_15II/bin/Debug/net7.0/Day_15II.pdb
+/home/ammarhammad/Documents/ITI_Courses/C#_Course/Csharp_ITI/Csharp_Day_15/Day_15/Day_15II/obj/Debug/net7.0/Day_15II.csproj.AssemblyReference.cache
+/home/ammarhammad/Documents/ITI_Courses/C#_Course/Csharp_ITI/Csharp_Day_15/Day_15/Day_15II/obj/Debug/net7.0/Day_15II.GeneratedMSBuildEditorConfig.editorconfig
+/home/ammarhammad/Documents/ITI_Courses/C#_Course/Csharp_ITI/Csharp_Day_15/Day_15/Day_15II/obj/Debug/net7.0/Day_15II.AssemblyInfoInputs.cache
+/home/ammarhammad/Documents/ITI_Courses/C#_Course/Csharp_ITI/Csharp_Day_15/Day_15/Day_15II/obj/Debug/net7.0/Day_15II.AssemblyInfo.cs
+/home/ammarhammad/Documents/ITI_Courses/C#_Course/Csharp_ITI/Csharp_Day_15/Day_15/Day_15II/obj/Debug/net7.0/Day_15II.csproj.CoreCompileInputs.cache
+/home/ammarhammad/Documents/ITI_Courses/C#_Course/Csharp_ITI/Csharp_Day_15/Day_15/Day_15II/obj/Debug/net7.0/Day_15II.dll
+/home/ammarhammad/Documents/ITI_Courses/C#_Course/Csharp_ITI/Csharp_Day_15/Day_15/Day_15II/obj/Debug/net7.0/refint/Day_15II.dll
+/home/ammarhammad/Documents/ITI_Courses/C#_Course/Csharp_ITI/Csharp_Day_15/Day_15/Day_15II/obj/Debug/net7.0/Day_15II.pdb
+/home/ammarhammad/Documents/ITI_Courses/C#_Course/Csharp_ITI/Csharp_Day_15/Day_15/Day_15II/obj/Debug/net7.0/ref/Day_15II.dll

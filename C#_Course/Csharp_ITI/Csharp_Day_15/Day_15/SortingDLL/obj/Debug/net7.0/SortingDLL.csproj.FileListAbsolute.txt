@@ -1,0 +1,12 @@
+/home/ammarhammad/Documents/ITI_Courses/C#_Course/Csharp_ITI/Csharp_Day_15/Day_15/SortingDLL/bin/Debug/net7.0/SortingDLL.deps.json
+/home/ammarhammad/Documents/ITI_Courses/C#_Course/Csharp_ITI/Csharp_Day_15/Day_15/SortingDLL/bin/Debug/net7.0/SortingDLL.dll
+/home/ammarhammad/Documents/ITI_Courses/C#_Course/Csharp_ITI/Csharp_Day_15/Day_15/SortingDLL/bin/Debug/net7.0/SortingDLL.pdb
+/home/ammarhammad/Documents/ITI_Courses/C#_Course/Csharp_ITI/Csharp_Day_15/Day_15/SortingDLL/obj/Debug/net7.0/SortingDLL.csproj.AssemblyReference.cache
+/home/ammarhammad/Documents/ITI_Courses/C#_Course/Csharp_ITI/Csharp_Day_15/Day_15/SortingDLL/obj/Debug/net7.0/SortingDLL.GeneratedMSBuildEditorConfig.editorconfig
+/home/ammarhammad/Documents/ITI_Courses/C#_Course/Csharp_ITI/Csharp_Day_15/Day_15/SortingDLL/obj/Debug/net7.0/SortingDLL.AssemblyInfoInputs.cache
+/home/ammarhammad/Documents/ITI_Courses/C#_Course/Csharp_ITI/Csharp_Day_15/Day_15/SortingDLL/obj/Debug/net7.0/SortingDLL.AssemblyInfo.cs
+/home/ammarhammad/Documents/ITI_Courses/C#_Course/Csharp_ITI/Csharp_Day_15/Day_15/SortingDLL/obj/Debug/net7.0/SortingDLL.csproj.CoreCompileInputs.cache
+/home/ammarhammad/Documents/ITI_Courses/C#_Course/Csharp_ITI/Csharp_Day_15/Day_15/SortingDLL/obj/Debug/net7.0/SortingDLL.dll
+/home/ammarhammad/Documents/ITI_Courses/C#_Course/Csharp_ITI/Csharp_Day_15/Day_15/SortingDLL/obj/Debug/net7.0/refint/SortingDLL.dll
+/home/ammarhammad/Documents/ITI_Courses/C#_Course/Csharp_ITI/Csharp_Day_15/Day_15/SortingDLL/obj/Debug/net7.0/SortingDLL.pdb
+/home/ammarhammad/Documents/ITI_Courses/C#_Course/Csharp_ITI/Csharp_Day_15/Day_15/SortingDLL/obj/Debug/net7.0/ref/SortingDLL.dll
