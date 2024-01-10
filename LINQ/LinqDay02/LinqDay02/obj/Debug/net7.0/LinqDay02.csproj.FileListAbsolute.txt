@@ -1,0 +1,14 @@
+D:\githubITI\ITI_Courses\LINQ\LinqDay02\LinqDay02\bin\Debug\net7.0\LinqDay02.exe
+D:\githubITI\ITI_Courses\LINQ\LinqDay02\LinqDay02\bin\Debug\net7.0\LinqDay02.deps.json
+D:\githubITI\ITI_Courses\LINQ\LinqDay02\LinqDay02\bin\Debug\net7.0\LinqDay02.runtimeconfig.json
+D:\githubITI\ITI_Courses\LINQ\LinqDay02\LinqDay02\bin\Debug\net7.0\LinqDay02.dll
+D:\githubITI\ITI_Courses\LINQ\LinqDay02\LinqDay02\bin\Debug\net7.0\LinqDay02.pdb
+D:\githubITI\ITI_Courses\LINQ\LinqDay02\LinqDay02\obj\Debug\net7.0\LinqDay02.GeneratedMSBuildEditorConfig.editorconfig
+D:\githubITI\ITI_Courses\LINQ\LinqDay02\LinqDay02\obj\Debug\net7.0\LinqDay02.AssemblyInfoInputs.cache
+D:\githubITI\ITI_Courses\LINQ\LinqDay02\LinqDay02\obj\Debug\net7.0\LinqDay02.AssemblyInfo.cs
+D:\githubITI\ITI_Courses\LINQ\LinqDay02\LinqDay02\obj\Debug\net7.0\LinqDay02.csproj.CoreCompileInputs.cache
+D:\githubITI\ITI_Courses\LINQ\LinqDay02\LinqDay02\obj\Debug\net7.0\LinqDay02.dll
+D:\githubITI\ITI_Courses\LINQ\LinqDay02\LinqDay02\obj\Debug\net7.0\refint\LinqDay02.dll
+D:\githubITI\ITI_Courses\LINQ\LinqDay02\LinqDay02\obj\Debug\net7.0\LinqDay02.pdb
+D:\githubITI\ITI_Courses\LINQ\LinqDay02\LinqDay02\obj\Debug\net7.0\LinqDay02.genruntimeconfig.cache
+D:\githubITI\ITI_Courses\LINQ\LinqDay02\LinqDay02\obj\Debug\net7.0\ref\LinqDay02.dll
