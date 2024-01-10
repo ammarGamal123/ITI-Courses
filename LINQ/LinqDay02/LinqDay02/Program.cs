@@ -9,7 +9,7 @@ namespace LinqDay02
         {
             #region Where - Filteration
 
-            /*var result = ProductList.Where(p => p.UnitsInStock == 0);
+            var result = ProductList.Where(p => p.UnitsInStock == 0);
 
             result = from p in ProductList
                      where p.UnitsInStock == 0
@@ -25,7 +25,7 @@ namespace LinqDay02
                      select p;
             
 
-            result = ProductList.Where ((p , i) => p.UnitsInStock == 0 && i <= 10);*/
+            result = ProductList.Where ((p , i) => p.UnitsInStock == 0 && i <= 10);
             // Indexed where valid only in fluent syntax
             // Can't be written using query expression
 
@@ -37,7 +37,7 @@ namespace LinqDay02
             // Project\Transformation every Element in Input seq to a new output seq 
             // new datatype (or same datatype)
 
-            /*var result = ProductList.Select(p => p.ProductName);
+            var result = ProductList.Select(p => p.ProductName);
             // Product => string
 
             result = from p in ProductList
@@ -98,7 +98,7 @@ namespace LinqDay02
                      select new { Name = p.ProductName, newPrice = p.UnitPrice * 1.1M }
                      into taxedProd
                      where taxedProd.newPrice > 20
-                     select taxedProd;*/
+                     select taxedProd;
 
 
 
@@ -108,7 +108,7 @@ namespace LinqDay02
 
             #region Ordering Element
 
-            /*var result = ProductList.OrderBy(p => p.UnitsInStock)
+            var result = ProductList.OrderBy(p => p.UnitsInStock)
                           .Select(p => new { p.ProductName, p.UnitsInStock,p.UnitPrice });
 
             result = from p in ProductList
@@ -128,7 +128,7 @@ namespace LinqDay02
 
             result = from p in ProductList
                      orderby p.UnitsInStock descending, p.UnitPrice descending
-                     select new { p.ProductName, p.UnitsInStock, p.UnitPrice };*/
+                     select new { p.ProductName, p.UnitsInStock, p.UnitPrice };
 
 
 
@@ -138,7 +138,7 @@ namespace LinqDay02
             #region Element - Imediate Execution
             // valid only in fluent syntax
 
-            /*List<Product> discountedLst = new List<Product>(); // Empty Seq
+            List<Product> discountedLst = new List<Product>(); // Empty Seq
 
             var result = ProductList.First();
             result = ProductList.Last();
@@ -197,11 +197,7 @@ namespace LinqDay02
             // return default if no elements matches with predicate
 
 
-            Console.WriteLine(result?.ProductName?? "NA");*/
-
-
-
-
+            Console.WriteLine(result?.ProductName?? "NA");
 
 
             #endregion
@@ -214,7 +210,7 @@ namespace LinqDay02
             // var result = ProductList.Max();
             // return Product : Max (based on Icomparable\<T> Implementation) Product
 
-            /* var result = ProductList.Max(p => p.UnitPrice);
+             var result = ProductList.Max(p => p.UnitPrice);
              // Max unit price
 
              Product prd = ProductList.Min();
@@ -226,7 +222,7 @@ namespace LinqDay02
              Console.WriteLine(rslt?.ProductName?? "NA");
 
              Console.WriteLine(ProductList.Average(p => p.UnitsInStock));
-             Console.WriteLine(ProductList.Sum(p => p.UnitsInStock));*/
+             Console.WriteLine(ProductList.Sum(p => p.UnitsInStock));
 
             #endregion
 
