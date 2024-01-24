@@ -392,17 +392,17 @@ namespace LinqDay02
                          orderby NoVol, NoVol.Length descending
                          select NoVol;
 */
-           var result = from N in Names
+           /*var result = from N in Names
                      let NoVol = Regex.Replace(N , "[aeiouAEIOU]" , string.Empty)
                      where NoVol.Length >= 3
                      orderby NoVol , N.Length descending
-                     select NoVol;
+                     select NoVol;*/
 
             #endregion
 
 
 
-            
+            /*
              foreach(var item in result)
              {
                  Console.WriteLine(item);
