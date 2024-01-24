@@ -229,14 +229,14 @@ namespace LinqDay02
 
             #region Generators Operators 
 
-            /* var result = Enumerable.Range(0, 20);
+             var result = Enumerable.Range(0, 20);
 
              var r01 = Enumerable.Empty<Product>();
 
              var r02 = Enumerable.Repeat(3 , 10);
 
              var r03 = Enumerable.Repeat(ProductList[0] , 5);
- */
+ 
 
 
             #endregion
@@ -252,7 +252,7 @@ namespace LinqDay02
             // output seq count > input seq count
             // transform each element in input seq to subseq (IEnumerable<>)
 
-            /*var result = nameLists.SelectMany(FN => FN.Split(' '));
+            var result = nameLists.SelectMany(FN => FN.Split(' '));
 
             // Query Syntax : use Multiple from to produce Select Many 
 
@@ -261,14 +261,14 @@ namespace LinqDay02
                      orderby SN.Length descending
                      select SN;
 
-            var r01 = nameLists.SelectMany(SN => SN.ToCharArray());*/
+            var r01 = nameLists.SelectMany(SN => SN.ToCharArray());
 
 
             #endregion
 
 
             #region Casting Operators : Imediate Excution 
-            /*
+            
                         List<Product> unAvPrds = ProductList.Where(p => p.UnitsInStock == 0).ToList();
 
                         Product[] pArr = ProductList.Where(p => p.UnitsInStock != 0)
@@ -280,13 +280,13 @@ namespace LinqDay02
                                                 //.ToDictionary(p => p.ProductID, p => new { p.ProductID, p.ProductName });
                                                 // Dic <long , Anonymous [long,string]>
                                                 //.ToLookup();
-            */
+            
             #endregion
 
 
 
             #region Set Operators 
-            /*var seq01 = Enumerable.Range(0, 100); // 0 : 99
+            var seq01 = Enumerable.Range(0, 100); // 0 : 99
             var seq02 = Enumerable.Range(50, 100); // 50 : 99 ,, start from 50 and sum += 100
 
             var result = seq01.Union(seq02); // remove duplicates 
@@ -301,10 +301,10 @@ namespace LinqDay02
             {
                 Console.Write($"{item}, ");
             }
-            Console.WriteLine();*/
+            Console.WriteLine();
 
             #region Index Range C# 8.0
-            /*
+            
             var lst1 = lst01.ToList();
 
             Console.WriteLine(lst1[0]);
@@ -312,7 +312,7 @@ namespace LinqDay02
             Console.WriteLine(lst1[^5]);
 
 
-            Range result = 1..^10;*/
+            Range result = 1..^10;
 
             #endregion
 
@@ -322,19 +322,19 @@ namespace LinqDay02
 
             #region Quantifiers , return boolean
 
-            /*Console.WriteLine(ProductList.Any()); // return true if input seq has atleast 1 element
-*/
-            // Console.WriteLine(ProductList.Any(p => p.UnitPrice > 200));
-            // return true if input seq have atleast 1 element matches the condition
+            Console.WriteLine(ProductList.Any()); // return true if input seq has atleast 1 element
 
-            // Console.WriteLine(ProductList.All(p => p.UnitsInStock > 0));
-            // return true of all elements in input seq matches the conditions 
+             Console.WriteLine(ProductList.Any(p => p.UnitPrice > 200));
+             return true if input seq have atleast 1 element matches the condition
 
-            /*var seq01 = Enumerable.Range(0, 100);
+             Console.WriteLine(ProductList.All(p => p.UnitsInStock > 0));
+             return true of all elements in input seq matches the conditions 
+
+            var seq01 = Enumerable.Range(0, 100);
             var seq02 = Enumerable.Range(50, 100);
 
             Console.WriteLine( seq01.SequenceEqual(seq02));
-*/
+
 
 
 
@@ -344,16 +344,16 @@ namespace LinqDay02
 
             #region Zip
             // input 2 seq , one combined o/p seq
-            /*var lst02 = Enumerable.Range(0, 10);
+            var lst02 = Enumerable.Range(0, 10);
             
-            var result = nameLists.Zip(lst02 , (FN , i) => new {i , Name = FN.ToUpper()});*/
+            var result = nameLists.Zip(lst02 , (FN , i) => new {i , Name = FN.ToUpper()});
 
 
             #endregion
 
             #region Grouping
 
-            /*var result = from p in ProductList
+            var result = from p in ProductList
                          where p.UnitsInStock > 0
                          group p by p.Category
                          into prdGroups
@@ -363,16 +363,16 @@ namespace LinqDay02
 
             result = ProductList.GroupBy(p => p.Category).Where(prdG => prdG.Count() >= 10)
                 .OrderByDescending(pg => pg.Count())
-                .Select(pg => new { Category = pg.Key, prdCount = pg.Count() });*/
+                .Select(pg => new { Category = pg.Key, prdCount = pg.Count() });
 
-            /*foreach ( var prdGroup in result ) {
+            foreach ( var prdGroup in result ) {
                 Console.WriteLine($"Group Key {prdGroup.Key}");
 
                 *//*foreach(var prd in prdGroup )
                 {
                     Console.WriteLine($".. {prd.ProductName}");
                 }*//*
-            }*/
+            }
 
             #endregion
 
@@ -384,15 +384,20 @@ namespace LinqDay02
             };
 
             // Regular Expression
-            /*var result = from N in Names
+            var result = from N in Names
                          select Regex.Replace(N, "[aeiouAEIOU]", string.Empty)
                         // Restart Query with new range variable , Old Range Variable is not Accessable
                         into NoVol
                          where NoVol.Length >= 3
                          orderby NoVol, NoVol.Length descending
                          select NoVol;
+<<<<<<< HEAD
 */
            /*var result = from N in Names
+=======
+
+           var result = from N in Names
+>>>>>>> 71623b4e9fd52da9c04efeeddaa199565a6726a4
                      let NoVol = Regex.Replace(N , "[aeiouAEIOU]" , string.Empty)
                      where NoVol.Length >= 3
                      orderby NoVol , N.Length descending
@@ -407,7 +412,7 @@ namespace LinqDay02
              {
                  Console.WriteLine(item);
              }
-            /*
+            
             foreach(var item in r01)
             {
                 Console.WriteLine(item);
@@ -416,7 +421,7 @@ namespace LinqDay02
             foreach (var item in r03)
             {
                 Console.WriteLine(item + " ");
-            }*/
+            }
 
 
 
