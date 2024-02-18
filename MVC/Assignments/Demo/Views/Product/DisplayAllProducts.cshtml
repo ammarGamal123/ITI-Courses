@@ -1,0 +1,19 @@
+﻿
+<!--Model Has List<Product>-->
+
+<table class="table table-border table-hover">
+@foreach(Product item in Model)
+{
+    <tr>
+            <td>@item.Id</td>
+            <td>@item.Name</td>
+            <td>@item.Price</td>
+
+            <!--We should add slash(/) before determining any path for the source-->
+            <td> <image src="/Images/@item.Image" style="width:30px;height:50px"></image></td>
+            
+            <td>@item.Description</td>
+    </tr>
+}
+
+</table>
