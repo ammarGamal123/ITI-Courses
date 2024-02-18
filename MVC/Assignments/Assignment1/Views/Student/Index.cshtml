@@ -1,0 +1,14 @@
+﻿<table class="table table-border table-hover">
+    
+@foreach(Student student in Model){    
+    
+    
+    <tr>
+        <td>@student.Id</td>
+        <td>@student.Name</td>
+        <td>@student.Address</td>
+        <td><image src ="/Images/@student.Image" style ="width:80px;height:100px"></image></td>
+
+    </tr>
+}
+</table>
