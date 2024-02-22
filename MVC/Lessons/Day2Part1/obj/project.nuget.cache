@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5cKvv0jSQFOddVyws4i0aCoNus5AOWudPg8cF19J9rF7bYtL0JHYnmJvG/zAIuIQYno96lMfs0JVu9AMC5mfpA==",
+  "dgSpecHash": "7YsCGzI2s6TC2Js9kUexiH34S1rMf4LLs5rViLfc+PJeNo6ZlX9kjwmavZ4kIneX06ABNex/jqirIjcpGwp7CQ==",
   "success": true,
-  "projectFilePath": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day2\\Day2.csproj",
+  "projectFilePath": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day2Part1\\Day2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\iamasd\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\iamasd\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

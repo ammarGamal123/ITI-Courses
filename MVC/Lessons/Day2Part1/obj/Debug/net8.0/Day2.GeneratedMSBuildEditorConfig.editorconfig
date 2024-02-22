@@ -9,47 +9,47 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Day2
 build_property.RootNamespace = Day2
-build_property.ProjectDir = D:\AWork\DotNet\ITI_Courses\MVC\Lessons\Day2\
+build_property.ProjectDir = D:\AWork\DotNet\ITI_Courses\MVC\Lessons\Day2Part1\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\AWork\DotNet\ITI_Courses\MVC\Lessons\Day2
+build_property.MSBuildProjectDirectory = D:\AWork\DotNet\ITI_Courses\MVC\Lessons\Day2Part1
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/AWork/DotNet/ITI_Courses/MVC/Lessons/Day2/Views/Dept/DisplayAllStudents.cshtml]
+[D:/AWork/DotNet/ITI_Courses/MVC/Lessons/Day2Part1/Views/Dept/DisplayAllStudents.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwdFxEaXNwbGF5QWxsU3R1ZGVudHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AWork/DotNet/ITI_Courses/MVC/Lessons/Day2/Views/Dept/Index.cshtml]
+[D:/AWork/DotNet/ITI_Courses/MVC/Lessons/Day2Part1/Views/Dept/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AWork/DotNet/ITI_Courses/MVC/Lessons/Day2/Views/Home/Index.cshtml]
+[D:/AWork/DotNet/ITI_Courses/MVC/Lessons/Day2Part1/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AWork/DotNet/ITI_Courses/MVC/Lessons/Day2/Views/Home/Privacy.cshtml]
+[D:/AWork/DotNet/ITI_Courses/MVC/Lessons/Day2Part1/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AWork/DotNet/ITI_Courses/MVC/Lessons/Day2/Views/Shared/Error.cshtml]
+[D:/AWork/DotNet/ITI_Courses/MVC/Lessons/Day2Part1/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AWork/DotNet/ITI_Courses/MVC/Lessons/Day2/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/AWork/DotNet/ITI_Courses/MVC/Lessons/Day2Part1/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AWork/DotNet/ITI_Courses/MVC/Lessons/Day2/Views/_ViewImports.cshtml]
+[D:/AWork/DotNet/ITI_Courses/MVC/Lessons/Day2Part1/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AWork/DotNet/ITI_Courses/MVC/Lessons/Day2/Views/_ViewStart.cshtml]
+[D:/AWork/DotNet/ITI_Courses/MVC/Lessons/Day2Part1/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AWork/DotNet/ITI_Courses/MVC/Lessons/Day2/Views/Shared/_Layout.cshtml]
+[D:/AWork/DotNet/ITI_Courses/MVC/Lessons/Day2Part1/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-4awz7a4dbf
