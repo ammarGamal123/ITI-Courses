@@ -1,0 +1,25 @@
+﻿@model List<Department>
+
+
+<!--Strong Type View-->
+<!--List<Department>-->
+
+<table style = "border:2px solid red" class ="table table-bordered table-hover">
+    <tr>
+        <th style="fon">
+            <b style="color:deeppink">Department Name</b>
+        </th>
+
+        <th>
+            <b style="color:deeppink">Manager Name</bstyle>
+        </th>
+    </tr>
+@foreach(var dept in Model)
+{
+    <tr>
+        <td>@dept.Name</td>
+        <td>@dept.ManagerName</td>
+            
+    </tr>   
+}
+</table>

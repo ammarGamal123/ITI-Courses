@@ -1,0 +1,34 @@
+﻿@model Student
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+@Model.Name <br><br >
+
+<select class="form-control">
+@foreach(var item in (List<string>) ViewData["Branches"])
+{
+    <option>
+        @item
+    </option>     
+}
+</select>
+
+<h1>@ViewData["Message"]?.ToString()</h1>
+
+<h2><br> @ViewData["DeptName"]?.ToString()</h2>
+
+
+<h2><br />@ViewBag.DeptName</h2>
+
+<br /><br />
+<select class="form-control">
+
+@foreach(var item in ViewBag.DeptGrades)
+{
+    <option>@item</option>
+}
+</select>
