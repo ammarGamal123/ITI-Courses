@@ -6,6 +6,25 @@ namespace Day3.Controllers
 {
     public class PassDataController : Controller
     {
+        public IActionResult SetCookie()
+        {
+            CookieOptions cookieOption = new CookieOptions();
+            cookieOption.Expires = DateTimeOffset.Now.AddHours(1);
+            // Response
+            Response.Cookies.Append("Name", "Assiut"); // Session Cookie
+            Response.Cookies.Append("Department", "SD", cookieOption);// Persisiten cookie 
+             
+            return Content("Cookies Saved");
+        }
+
+        public IActionResult GetCookie()
+        {
+            // Request 
+            string result = Request.Cookies["Name"].ToString();
+            string department = Request.Cookies["Department"].ToString();
+            return Content($"Cookies Frome Set Cookies {result} , {department}");
+        }
+
         public IActionResult SetSession()
         {
             HttpContext.Session.SetString("Name", "Intake42");
