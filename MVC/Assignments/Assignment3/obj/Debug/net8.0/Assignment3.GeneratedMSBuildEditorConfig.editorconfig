@@ -18,6 +18,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\AWork\DotNet\ITI_Courses\MVC\Assignments\Assignment3
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/AWork/DotNet/ITI_Courses/MVC/Assignments/Assignment3/Views/Course/CourseTrainesDegres.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXENvdXJzZVRyYWluZXNEZWdyZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AWork/DotNet/ITI_Courses/MVC/Assignments/Assignment3/Views/Course/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AWork/DotNet/ITI_Courses/MVC/Assignments/Assignment3/Views/Course/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/AWork/DotNet/ITI_Courses/MVC/Assignments/Assignment3/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

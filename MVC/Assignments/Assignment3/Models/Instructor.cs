@@ -12,7 +12,6 @@ namespace Assignment3.Models
         public string? Image { get; set; }
         public string? Address { get; set; }
 
-        [Range(0, (double)decimal.MaxValue)] // Adjust range based on salary scale
         public decimal Salary { get; set; }
 
 
@@ -22,7 +21,7 @@ namespace Assignment3.Models
 
 
         //[ForeignKey("course")]
-        public int CourseId { get; set; }
+        public int InstructorCrsId { get; set; }
         public Course? Course { get; set; }
 
 

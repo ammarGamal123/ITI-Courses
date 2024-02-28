@@ -29,13 +29,13 @@ namespace Assignment3.Models
             modelBuilder.Entity<Course>()
                 .HasMany(c => c.CourseResults)
                 .WithOne(cr => cr.Course)
-                .HasForeignKey(cr => cr.CourseId);
+                .HasForeignKey(cr => cr.CourseResultCrsId);
 
 
             modelBuilder.Entity<Course>()
                 .HasMany(c => c.Instructors)
                 .WithOne(i => i.Course)
-                .HasForeignKey(i => i.CourseId);
+                .HasForeignKey(i => i.InstructorCrsId);
 
 
             modelBuilder.Entity<Course>()
@@ -47,7 +47,7 @@ namespace Assignment3.Models
             modelBuilder.Entity<Trainee>()
                 .HasMany(t => t.CourseResults)
                 .WithOne(cr => cr.Trainee)
-                .HasForeignKey(cr => cr.TraineeId);
+                .HasForeignKey(cr => cr.CourseResultCrsId);
 
 
             modelBuilder.Entity<Trainee>()
@@ -63,40 +63,9 @@ namespace Assignment3.Models
 
 
             modelBuilder.Entity<Instructor>()
-                        .Property(i => i.Salary)
-                        .HasColumnType("decimal(18, 2)");
-            /*
-            modelBuilder.Entity<Course>()
-                .HasMany(c => c.CourseResults)
-                .WithOne(cr => cr.Course)
-                .HasForeignKey(cr => cr.CourseId);
-
-            // Removed redundant Instructors/course relationship
-
-            modelBuilder.Entity<Course>()
-                .HasOne(c => c.Department)
-                .WithMany(d => d.Courses)
-                .HasForeignKey(c => c.DeptId);
-
-            modelBuilder.Entity<Trainee>()
-                .HasMany(t => t.CourseResults)
-                .WithOne(cr => cr.Trainee)
-                .HasForeignKey(cr => cr.TraineeId);
-
-            modelBuilder.Entity<Trainee>()
-                .HasOne(t => t.Department)
-                .WithMany(d => d.Trainees)
-                .HasForeignKey(t => t.DeptId);
-
-            modelBuilder.Entity<Instructor>()
-                .HasOne(i => i.Department)
-                .WithMany(d => d.Instructors)
-                .HasForeignKey(i => i.DeptId);
-             */
-
-
-
-
+               .Property(i => i.Salary)
+               .HasColumnType("decimal(18, 2)");
+           
 
             base.OnModelCreating(modelBuilder);
         }

@@ -1,11 +1,17 @@
-﻿namespace Assignment3
+﻿using Assignment3.Models;
+using System.Collections.ObjectModel;
+
+namespace Assignment3
 {
     public class Program
     {
+
         public static void Main(string[] args)
         {
-            var builder = WebApplication.CreateBuilder(args);
 
+
+            var builder = WebApplication.CreateBuilder(args);
+            builder.Services.AddSession();
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
@@ -18,6 +24,7 @@
             }
             app.UseStaticFiles();
 
+            app.UseSession();
             app.UseRouting();
             app.UseAuthorization();
 
@@ -27,5 +34,6 @@
 
             app.Run();
         }
+
     }
 }
