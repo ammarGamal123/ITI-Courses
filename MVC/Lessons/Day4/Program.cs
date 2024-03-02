@@ -1,4 +1,6 @@
+using Day4.ViewModel;
 namespace Day4
+
 {
     public class Program
     {
