@@ -1,0 +1,19 @@
+﻿@model StudentWithBranchListViewModel
+@{
+    ViewData["Title"] = "DetailsWithViewModel";
+}
+
+<h1>DetailsWithViewModel</h1>
+
+<h3>@Model.StudentName</h3>
+<select>
+    @foreach(var item in Model.Branches)
+    {
+        <option>@item</option>
+    }
+</select>
+
+<h3>@Model.Message</h3>
+<h3>@Model.Temprature</h3>
+<h3>@Model.StudentImage</h3>
+

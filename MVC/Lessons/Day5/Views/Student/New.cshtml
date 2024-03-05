@@ -1,0 +1,56 @@
+﻿@model Student
+@{
+    ViewData["Title"] = "New";
+    
+    // Only for MVC this feature is valid
+    
+    SelectList deptItems = 
+               new SelectList(ViewBag.DeptList, "Id", "Name",Model.DeptId);
+     
+}
+
+<h1 style="font-size:60px">New Student</h1>
+
+<!--You will go to controller Student in an action Save if you click submit-->
+<form method="post" asp-controller="Student" asp-action="New">
+        <div>
+            <label asp-for="@Model.Name" ></label>
+            <input asp-for="@Model.Name" class="form form-control" />
+            <br />
+        </div>
+
+        <div>
+            <label asp-for="@Model.Age" ></label>
+            <input asp-for="@Model.Age" class="form form-control" />
+            <br />
+        </div>
+
+        <div>
+            <label asp-for="@Model.Address"></label>
+            <input asp-for="@Model.Address" class="form form-control" />
+            <br />
+        </div>
+    
+        <div>
+            <label asp-for="@Model.Image" ></label>
+            <input asp-for="@Model.Image" class="form form-control" />
+            <br />
+        </div>
+
+        <div>
+            <label  asp-for="@Model.DeptId"></label>
+
+            <select asp-for="DeptId"
+                    asp-items="@deptItems"
+                    class="form-control">
+                
+            </select>
+        </div>
+
+        <br />
+
+        <input type="submit" value="Add" class="btn btn-success" />
+        <br />
+        
+</form>
+<a href="Student/index">Back To List</a>

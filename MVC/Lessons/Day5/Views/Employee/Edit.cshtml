@@ -1,0 +1,85 @@
+﻿@model Employee
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<a href="/Employee/edit/@Model.Id" class="btn btn-success">VM Using Pure HTML Back To List</a>
+<br /> <br />
+
+@Html.ActionLink("VM Using HTML Helper",
+"edit",
+"Employee",
+new { id = Model.Id },new { @class = "btn btn-success"})
+<br /> <br />
+
+
+<a  asp-controller="Employee"  asp-action="edit" asp-route-id="@Model.Id"
+    class="btn btn-success">VM Using Tag Helper </a>
+
+<br />
+<h1>Edit</h1>
+
+
+<!--                  Controller Name,Actoin Name, EmployeeId for update -->
+<form method="post" action="/Employee/SaveEdit/@Model.Id">
+    
+    <br />
+    <div>
+        <label>Name </label>
+        @* <input type="text" name="Name" id="Name" value="@Model.Name" class="form form-control"/>
+        @Html.TextBox("Name",null,new {style="color:red",@class="form-control"})
+        @Html.TextBoxFor(s => s.Name,new {style="color:green",@class="form-control"}) *@
+        @Html.EditorFor(e => e.Name )
+    </div>
+
+    <br />
+
+    <div>
+        <label>Salary </label>
+        <input type="number" name="Salary" id="Salary" value="@Model.Salary" class="form form-control"/>
+    </div>
+    
+    <br />
+    <div>
+        @* <label>Age </label> *@
+        @* @Html.LabelFor(e => e.Age) *@
+
+        @* <input type="number" name="Age" id="Age" value="@Model.Age" class="form form-control" /> *@
+        @* @Html.EditorFor(e => e.Age, new { htmlAttributes = new {@class="form form-control"} *@
+        <label asp-for="@Model.Age"></label>
+        <input class="form form-control" asp-for="@Model.Age" />
+
+    </div>
+
+    <br />
+    <div>
+        <label>Address </label>
+        <input type="text" name="Address" id="Address" value="@Model.Address" class="form form-control" />
+
+    </div>
+
+    <br />
+    <div>
+        <label>Departmend</label>
+
+        <select name="DeptId" id="DeptId" class="form form-control">
+            @foreach (Department item in ViewBag.DeptList)
+            {
+                if (Model.DeptId == item.Id){
+                    <option value ="@item.Id" selected>@item.Name</option>
+                }
+                else
+                {
+                    <option value="@item.Id">@item.Name</option>   
+                }
+            }
+
+        </select>
+
+    </div>
+    <br />
+    <input type="submit" value ="save"  />
+</form>
+
+
+
