@@ -1,0 +1,30 @@
+﻿<!--Strong Type View-->
+<!--List<Insructor>-->
+@model List<Instructor>
+
+    <table class="table table-bordered table-hover">
+        <tr>
+            <th>
+                Instructor Id
+            </th>
+            <th>
+                Instructor Name
+            </th>
+            <th>
+                Insructor Salary
+            </th>
+            <th>
+                Insructor Address
+            </th>
+
+    </tr>
+    @foreach(var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Name</td>
+            <td>@item.Salary</td>
+            <td>@item.Address</td>
+        </tr>
+    }
+</table>
