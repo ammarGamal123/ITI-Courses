@@ -1,4 +1,4 @@
-﻿namespace Assignment3.ViewModel
+﻿namespace Assignment4.ViewModel
 {
     public class CourseResultViewModel
     {

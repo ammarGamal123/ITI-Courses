@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Assignment3.Models
+namespace Assignment4.Models
 {
     public class Instructor
     {
@@ -16,11 +16,13 @@ namespace Assignment3.Models
 
 
         //[ForeignKey("Department")]
+        [Display(Name="Department of Instructor")]
         public int DeptId { get; set; }
         public Department? Department { get; set; }
 
 
         //[ForeignKey("course")]
+        [Display(Name = "Course of the Instructor")]
         public int InstructorCrsId { get; set; }
         public Course? Course { get; set; }
 

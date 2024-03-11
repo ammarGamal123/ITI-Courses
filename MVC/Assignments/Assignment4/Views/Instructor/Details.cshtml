@@ -1,33 +1,30 @@
 ﻿@model Instructor
+@{
+    ViewData["Title"] = "Details";
+}
 
-<table style ="color:blue" class="table table-bordered table-hover">
+<h1>Details</h1>
+
+<table class="table table-bordered table-hover table-striped">
+<thead>
     <tr>
-        <th>
-            Instructor Id
-        </th>
-        <th>
-            Instructor Name
-        </th>
-        <th>
-            Instructor Salary
-        </th>
-        <th>
-            Instructor Address
-        </th>
+        <th>Instructor Id</th>
+        <th>Instructor Name</th>
+        <th>Instructor Salary</th>
+        <th>Instructor Image</th>
+        <th>Instructor Address</th>
+    </tr>
+</thead>
+    <tr>
+        <td>@Model.Id</td>
+        <td>@Model.Name</td>
+        <td>@Model.Salary</td>
+        <td>@Model.Image</td>
+        <td>@Model.Address</td>
+
     </tr>
 
-    <tr>
-        <td>
-            @Model.Id
-        </td>
-        <td>
-            @Model.Name
-        </td>
-        <td>
-            @Model.Salary
-        </td>
-        <td>
-            @Model.Address
-        </td>
-    </tr>
 </table>
+
+
+

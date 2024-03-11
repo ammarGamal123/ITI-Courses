@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Assignment3.Models
+namespace Assignment4.Models
 {
     public class Trainee
     {

@@ -1,30 +1,49 @@
-﻿<!--Strong Type View-->
-<!--List<Insructor>-->
-@model List<Instructor>
+﻿@model List<Instructor>
+@{
+    ViewData["Title"] = "Index";
 
-    <table class="table table-bordered table-hover">
+    
+}
+
+<h1>Index</h1>
+
+<h3><a asp-controller="Instructor" asp-action="NewInstructor">
+    Add New Instructor
+    </a>
+</h3>
+
+<table class="table table-bordered table-hover table-striped">
+    <thead>
         <tr>
-            <th>
-                Instructor Id
-            </th>
-            <th>
-                Instructor Name
-            </th>
-            <th>
-                Insructor Salary
-            </th>
-            <th>
-                Insructor Address
-            </th>
+            <th>Instructor Id</th>
+            <th>Instructor Name</th>
+            <th>Instructor Salary</th>
+            <th>Instructor Image</th>
+            <th>Instructor Address</th>
+            <th>Instructor Department</th>
+            <th>Instructor Course</th>
+            
+        </tr>
+    </thead>
 
-    </tr>
     @foreach(var item in Model)
     {
         <tr>
             <td>@item.Id</td>
             <td>@item.Name</td>
             <td>@item.Salary</td>
+            <td>@item.Image</td>
             <td>@item.Address</td>
+            <td>@item.Department.Name</td>
+            <td>@item.Course.Name</td>
+
+            <td><a asp-controller="Instructor" 
+                   asp-action="Edit"
+                   asp-route-id="@item.Id">
+                 Edit Instructor
+            </a>
+            </td>
         </tr>
     }
 </table>
+

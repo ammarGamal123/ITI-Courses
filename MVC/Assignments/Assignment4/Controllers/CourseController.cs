@@ -1,9 +1,9 @@
-﻿using Assignment3.Models;
-using Assignment3.ViewModel;
+﻿using Assignment4.Models;
+using Assignment4.ViewModel;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-namespace Assignment3.Controllers
+namespace Assignment4.Controllers
 {
     public class CourseController : Controller
     {

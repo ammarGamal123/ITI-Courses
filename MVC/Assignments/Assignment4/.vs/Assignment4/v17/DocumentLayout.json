@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Assignments\\Assignment4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D69165E2-A699-47ED-9DBE-5606419628D3}|Assignment4.csproj|d:\\awork\\dotnet\\iti_courses\\mvc\\assignments\\assignment4\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D69165E2-A699-47ED-9DBE-5606419628D3}|Assignment4.csproj|solutionrelative:controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D69165E2-A699-47ED-9DBE-5606419628D3}|Assignment4.csproj|d:\\awork\\dotnet\\iti_courses\\mvc\\assignments\\assignment4\\views\\instructor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D69165E2-A699-47ED-9DBE-5606419628D3}|Assignment4.csproj|solutionrelative:views\\instructor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D69165E2-A699-47ED-9DBE-5606419628D3}|Assignment4.csproj|d:\\awork\\dotnet\\iti_courses\\mvc\\assignments\\assignment4\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D69165E2-A699-47ED-9DBE-5606419628D3}|Assignment4.csproj|solutionrelative:models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D69165E2-A699-47ED-9DBE-5606419628D3}|Assignment4.csproj|d:\\awork\\dotnet\\iti_courses\\mvc\\assignments\\assignment4\\views\\instructor\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D69165E2-A699-47ED-9DBE-5606419628D3}|Assignment4.csproj|solutionrelative:views\\instructor\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D69165E2-A699-47ED-9DBE-5606419628D3}|Assignment4.csproj|d:\\awork\\dotnet\\iti_courses\\mvc\\assignments\\assignment4\\views\\instructor\\newinstructor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D69165E2-A699-47ED-9DBE-5606419628D3}|Assignment4.csproj|solutionrelative:views\\instructor\\newinstructor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D69165E2-A699-47ED-9DBE-5606419628D3}|Assignment4.csproj|d:\\awork\\dotnet\\iti_courses\\mvc\\assignments\\assignment4\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D69165E2-A699-47ED-9DBE-5606419628D3}|Assignment4.csproj|solutionrelative:models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D69165E2-A699-47ED-9DBE-5606419628D3}|Assignment4.csproj|d:\\awork\\dotnet\\iti_courses\\mvc\\assignments\\assignment4\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D69165E2-A699-47ED-9DBE-5606419628D3}|Assignment4.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D69165E2-A699-47ED-9DBE-5606419628D3}|Assignment4.csproj|d:\\awork\\dotnet\\iti_courses\\mvc\\assignments\\assignment4\\views\\instructor\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D69165E2-A699-47ED-9DBE-5606419628D3}|Assignment4.csproj|solutionrelative:views\\instructor\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D69165E2-A699-47ED-9DBE-5606419628D3}|Assignment4.csproj|d:\\awork\\dotnet\\iti_courses\\mvc\\assignments\\assignment4\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D69165E2-A699-47ED-9DBE-5606419628D3}|Assignment4.csproj|solutionrelative:views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D69165E2-A699-47ED-9DBE-5606419628D3}|Assignment4.csproj|d:\\awork\\dotnet\\iti_courses\\mvc\\assignments\\assignment4\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D69165E2-A699-47ED-9DBE-5606419628D3}|Assignment4.csproj|solutionrelative:controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Assignments\\Assignment4\\Views\\Instructor\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Instructor\\Edit.cshtml",
+              "ToolTip": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Assignments\\Assignment4\\Views\\Instructor\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Instructor\\Edit.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAEoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-11T22:40:05.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Instructor.cs",
+              "DocumentMoniker": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Assignments\\Assignment4\\Models\\Instructor.cs",
+              "RelativeDocumentMoniker": "Models\\Instructor.cs",
+              "ToolTip": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Assignments\\Assignment4\\Models\\Instructor.cs",
+              "RelativeToolTip": "Models\\Instructor.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T21:33:42.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Assignments\\Assignment4\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "Models\\Department.cs",
+              "ToolTip": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Assignments\\Assignment4\\Models\\Department.cs",
+              "RelativeToolTip": "Models\\Department.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T21:33:37.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Assignments\\Assignment4\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Assignments\\Assignment4\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T21:33:37.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NewInstructor.cshtml",
+              "DocumentMoniker": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Assignments\\Assignment4\\Views\\Instructor\\NewInstructor.cshtml",
+              "RelativeDocumentMoniker": "Views\\Instructor\\NewInstructor.cshtml",
+              "ToolTip": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Assignments\\Assignment4\\Views\\Instructor\\NewInstructor.cshtml",
+              "RelativeToolTip": "Views\\Instructor\\NewInstructor.cshtml",
+              "ViewState": "AQIAADsAAAAAAAAAAAA1wEQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-11T21:15:07.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Assignments\\Assignment4\\Views\\Department\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Department\\Index.cshtml",
+              "ToolTip": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Assignments\\Assignment4\\Views\\Department\\Index.cshtml",
+              "RelativeToolTip": "Views\\Department\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-11T21:07:38.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Assignments\\Assignment4\\Views\\Instructor\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Instructor\\Details.cshtml",
+              "ToolTip": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Assignments\\Assignment4\\Views\\Instructor\\Details.cshtml",
+              "RelativeToolTip": "Views\\Instructor\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-11T21:06:54.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Assignments\\Assignment4\\Views\\Instructor\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Instructor\\Index.cshtml",
+              "ToolTip": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Assignments\\Assignment4\\Views\\Instructor\\Index.cshtml",
+              "RelativeToolTip": "Views\\Instructor\\Index.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-11T20:52:13.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InstructorController.cs",
+              "DocumentMoniker": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Assignments\\Assignment4\\Controllers\\InstructorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InstructorController.cs",
+              "ToolTip": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Assignments\\Assignment4\\Controllers\\InstructorController.cs",
+              "RelativeToolTip": "Controllers\\InstructorController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T20:50:05.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Assignments\\Assignment4\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DepartmentController.cs",
+              "ToolTip": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Assignments\\Assignment4\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "Controllers\\DepartmentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T20:06:50.738Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
-﻿using Assignment3.Models;
+﻿using Assignment4.Models;
 using System.Collections.ObjectModel;
 
-namespace Assignment3
+namespace Assignment4
 {
     public class Program
     {

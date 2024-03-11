@@ -1,8 +1,8 @@
-using Assignment3.Models;
+using Assignment4.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace Assignment3.Controllers
+namespace Assignment4.Controllers
 {
     public class HomeController : Controller
     {

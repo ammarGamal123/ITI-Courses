@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Assignment3.Models
+namespace Assignment4.Models
 {
     public class Department
     {

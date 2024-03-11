@@ -1,0 +1,80 @@
+﻿@model Instructor
+@{
+    ViewData["Title"] = "NewInstructor";
+
+    SelectList deptItems =
+                new SelectList(
+                    ViewBag.DeptList,
+                    "Id",
+                    "Name",
+                    Model.DeptId);
+
+    SelectList courseItems =
+                new SelectList(
+                ViewBag.CourseList,
+                "Id",
+                "Name",
+                Model.InstructorCrsId);
+}
+
+<h2>Add New Instructor</h2>
+
+
+<!--what is the action which will happen-->
+<form method="post" asp-controller="Instructor" asp-action="SaveNew">
+    <div>
+        <label asp-for="@Model.Name"></label>
+        <input asp-for="@Model.Name" class="form form-control" />
+        <br />
+    </div>
+
+    <div>
+        <label asp-for="@Model.Salary"></label>
+        <input asp-for="@Model.Salary" class="form form-control" />
+        <br />
+    </div>
+
+    <div>
+        <label asp-for="@Model.Image"></label>
+        <input asp-for="@Model.Image" class="form form-control" />
+        <br />
+    </div>
+
+    <div>
+        <label asp-for="@Model.Address"></label>
+        <input asp-for="@Model.Address" class="form form-control" />
+        <br />
+    </div>
+
+        
+    <div>
+        <label asp-for="@Model.DeptId"></label>
+        <select asp-for="@Model.DeptId" 
+                asp-items="@deptItems"
+                class="form-control">
+
+                <option value="0">--Select Department--</option>
+            </select>
+
+        <br />
+    </div>
+
+    <div>
+        <label asp-for="@Model.InstructorCrsId"></label>
+        <select asp-for="@Model.InstructorCrsId"
+                asp-items="@courseItems"
+                class="form-control">
+
+                <option value="0">--Select Course--</option>
+            </select>
+
+        <br />
+    </div>
+
+    <input type="submit" value="Add" class="btn btn-success" />
+    <br />
+
+</form>
+
+<a asp-controller="Instructor" asp-action="Index">Back To List Of Instructors</a>
+
