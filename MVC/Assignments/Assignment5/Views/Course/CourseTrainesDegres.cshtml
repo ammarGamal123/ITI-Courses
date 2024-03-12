@@ -1,0 +1,18 @@
+﻿@model CourseResultViewModel
+
+<table style ="border:2px solid red" class="table table-bordered table-hover">
+    <tr>
+        <th>Course Name </th>
+        <th>Course Min Degree </th>
+        <th>Trainee Name </th>
+        <th>Trainee Degree </th>
+    </tr>
+
+    <tr style = "color:@Model.TraineeColor">
+        <td>@Model.CourseName</td>
+        <td>@Model.CourseMinDegree</td>
+        <td>@Model.TraineeName</td>
+        <td>@Model.TraineeDegree</td>
+
+    </tr>
+</table>

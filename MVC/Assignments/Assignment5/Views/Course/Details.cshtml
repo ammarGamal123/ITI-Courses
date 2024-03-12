@@ -1,0 +1,63 @@
+﻿@model Course
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Great Table Example</title>
+    <style>
+        /* Style for the table */
+        .custom-table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 2px solid #ddd;
+            background-color: #f7f7f7; /* Light gray background color */
+        }
+
+            /* Style for table header */
+            .custom-table th {
+                background-color: #4285f4; /* Blue color for header */
+                color: white; /* White text color */
+                border: 2px solid #ddd;
+                padding: 8px;
+                text-align: left;
+            }
+
+            /* Style for table rows */
+            .custom-table td {
+                border: 2px solid #ddd;
+                padding: 8px;
+                background-color: #ffffff; /* White background color for cells */
+            }
+
+            /* Style for table rows on hover */
+            .custom-table tr:hover {
+                background-color: #f0f0f0; /* Light gray background color on hover */
+            }
+    </style>
+</head>
+<body>
+
+    <table class="custom-table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Degree</th>
+                <th>Min Degree</th>
+            </tr>
+        </thead>
+        <tbody>
+           
+                <tr>
+                    <td>@Model.Id</td>
+                    <td>@Model.Name</td>
+                    <td>@Model.Degree</td>
+                    <td>@Model.MinDegree</td>
+                </tr>
+            
+        </tbody>
+    </table>
+
+</body>
+</html>
