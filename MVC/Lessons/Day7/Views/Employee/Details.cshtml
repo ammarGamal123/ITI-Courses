@@ -1,0 +1,16 @@
+﻿@model Employee
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+
+<!--Because We Will get Model.Id from it-->
+<partial name="_EmployeeCard" model="Model">
+
+<a  asp-controller="Employee" 
+    asp-action="Edit" asp-route-id="@Model.Id">
+    Edit
+</a>
+
