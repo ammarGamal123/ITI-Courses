@@ -1,9 +1,24 @@
 ﻿@model List<Employee>
 @{
     ViewData["Title"] = "Index";
+
+    SelectList deptList =
+                new SelectList(
+                Model,
+                "Id",
+                "Name"
+                );
+
 }
 
 <h1>Index</h1>
+
+<select class="form-control" name="dept" id="dept" asp-items="deptList"
+        onchange="GetEmployeesData()">
+    <option value="0">--Select Department--</option>
+</select>
+
+
 
 <table class="table table-bordered table-hover">
     <tr>
@@ -30,3 +45,25 @@
 
 </table>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
+    </script>
+
+<script>
+
+    function GetEmployeesData() {
+        var deptId = document.getElementById("Dept").value;
+        
+        $.ajax({
+            url: "/Dept/GetEmployees" ,
+            data: {"deptId":deptId},
+            data: { "Id": empId }
+            ,
+            success: function (result) {
+                console.log(result);
+                // $("#div1").html(result);
+                document.getElementById("empDetails").innerHTML = result;
+
+            }
+        });
+    }
+</script>   

@@ -1,4 +1,6 @@
 using Day7.ViewModel;
+using Microsoft.AspNetCore.Mvc;
+using System;
 namespace Day7
 
 {
@@ -23,6 +25,12 @@ namespace Day7
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.MapControllerRoute(
+                name: "default",
+                pattern:"ITI/{name:alpha}/{age:int:max(50):min(0)}",
+                defaults: new { controller = "Student", action = "TestRoute" }  
+                );
 
             app.MapControllerRoute(
                 name: "default",

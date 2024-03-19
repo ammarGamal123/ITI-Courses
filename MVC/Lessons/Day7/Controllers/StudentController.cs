@@ -7,7 +7,14 @@ namespace Day7.Controllers
     public class StudentController : Controller
     {
         ITIEntities context = new ITIEntities();
-        
+
+
+        [Route("ITI/{name:alpha}/{age:max(70):min(16)")]
+        public IActionResult TestRoute(string name , int age)
+        {
+            return Content($"Ok Name = {name} , Age = {age}");
+        }
+
         public IActionResult Index()
         {
             return View(context.Students.ToList());

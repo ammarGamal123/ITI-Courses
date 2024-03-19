@@ -1,6 +1,7 @@
 ﻿using Day7.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Net.Security;
 
 namespace Day7.Controllers
 {
@@ -13,6 +14,11 @@ namespace Day7.Controllers
             return View(context.Employees.ToList());
         }
 
+        public IActionResult Ajax()
+        {
+            var employee = context.Employees.ToList();
+            return View(employee);
+        }
 
         // Action for anchor Tag
 

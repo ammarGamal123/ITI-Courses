@@ -1,0 +1,44 @@
+﻿@model List<Employee>
+@{
+    ViewData["Title"] = "Ajax";
+
+    SelectList empList = new SelectList(
+        Model,
+        "Id",
+        "Name");
+    
+}
+
+<h1>Ajax</h1>
+
+<select class="form-control" name="emp" id="emp" asp-items="empList" 
+        onchange="GetDetails()">
+    <option value="0">--Select Employee--</option>
+</select>
+
+
+<div id="empDetails">
+
+</div>
+
+
+<script>
+    function GetDetails(){
+        // ajax call
+        var empId = document.getElementById("emp").value;
+
+        $.ajax({
+            url: "/Employee/testPartialView/"+empId,
+            data: { "Id": empId }
+            ,
+            success: function (result) {
+                console.log(result);
+                       // $("#div1").html(result);
+                document.getElementById("empDetails").innerHTML = result; 
+
+            }
+        });
+        
+        console.log(empId);
+    }
+</script>

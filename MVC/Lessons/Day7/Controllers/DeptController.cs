@@ -1,5 +1,6 @@
 ﻿using Day7.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Day7.Controllers
 {
@@ -15,6 +16,14 @@ namespace Day7.Controllers
             List <Department> deptsModel = context.Departments.ToList();
     
             return View("Index" , deptsModel);// U Must send it to View otherwise it will throw NULL
+        }
+
+        public IActionResult GetEmployees(int deptId)
+        {
+            var empInDept = context.Employees
+                .Where(e => e.DeptId == deptId);
+
+            return Json(empInDept);
         }
 
         public IActionResult GetStudents(int deptId)

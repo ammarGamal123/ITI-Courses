@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0500A336-C5B4-4B9A-AF35-F6F0EC6B481D}|Day7.csproj|d:\\awork\\dotnet\\iti_courses\\mvc\\lessons\\day7\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0500A336-C5B4-4B9A-AF35-F6F0EC6B481D}|Day7.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0500A336-C5B4-4B9A-AF35-F6F0EC6B481D}|Day7.csproj|d:\\awork\\dotnet\\iti_courses\\mvc\\lessons\\day7\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0500A336-C5B4-4B9A-AF35-F6F0EC6B481D}|Day7.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0500A336-C5B4-4B9A-AF35-F6F0EC6B481D}|Day7.csproj|d:\\awork\\dotnet\\iti_courses\\mvc\\lessons\\day7\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0500A336-C5B4-4B9A-AF35-F6F0EC6B481D}|Day7.csproj|solutionrelative:views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0500A336-C5B4-4B9A-AF35-F6F0EC6B481D}|Day7.csproj|d:\\awork\\dotnet\\iti_courses\\mvc\\lessons\\day7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0500A336-C5B4-4B9A-AF35-F6F0EC6B481D}|Day7.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0500A336-C5B4-4B9A-AF35-F6F0EC6B481D}|Day7.csproj|d:\\awork\\dotnet\\iti_courses\\mvc\\lessons\\day7\\views\\employee\\_employeecard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0500A336-C5B4-4B9A-AF35-F6F0EC6B481D}|Day7.csproj|solutionrelative:views\\employee\\_employeecard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0500A336-C5B4-4B9A-AF35-F6F0EC6B481D}|Day7.csproj|d:\\awork\\dotnet\\iti_courses\\mvc\\lessons\\day7\\views\\dept\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0500A336-C5B4-4B9A-AF35-F6F0EC6B481D}|Day7.csproj|solutionrelative:views\\dept\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0500A336-C5B4-4B9A-AF35-F6F0EC6B481D}|Day7.csproj|d:\\awork\\dotnet\\iti_courses\\mvc\\lessons\\day7\\views\\dept\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0500A336-C5B4-4B9A-AF35-F6F0EC6B481D}|Day7.csproj|solutionrelative:views\\dept\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0500A336-C5B4-4B9A-AF35-F6F0EC6B481D}|Day7.csproj|d:\\awork\\dotnet\\iti_courses\\mvc\\lessons\\day7\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0500A336-C5B4-4B9A-AF35-F6F0EC6B481D}|Day7.csproj|solutionrelative:views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0500A336-C5B4-4B9A-AF35-F6F0EC6B481D}|Day7.csproj|d:\\awork\\dotnet\\iti_courses\\mvc\\lessons\\day7\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0500A336-C5B4-4B9A-AF35-F6F0EC6B481D}|Day7.csproj|solutionrelative:views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0500A336-C5B4-4B9A-AF35-F6F0EC6B481D}|Day7.csproj|d:\\awork\\dotnet\\iti_courses\\mvc\\lessons\\day7\\controllers\\deptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0500A336-C5B4-4B9A-AF35-F6F0EC6B481D}|Day7.csproj|solutionrelative:controllers\\deptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0500A336-C5B4-4B9A-AF35-F6F0EC6B481D}|Day7.csproj|d:\\awork\\dotnet\\iti_courses\\mvc\\lessons\\day7\\views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0500A336-C5B4-4B9A-AF35-F6F0EC6B481D}|Day7.csproj|solutionrelative:views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0500A336-C5B4-4B9A-AF35-F6F0EC6B481D}|Day7.csproj|d:\\awork\\dotnet\\iti_courses\\mvc\\lessons\\day7\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0500A336-C5B4-4B9A-AF35-F6F0EC6B481D}|Day7.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0500A336-C5B4-4B9A-AF35-F6F0EC6B481D}|Day7.csproj|d:\\awork\\dotnet\\iti_courses\\mvc\\lessons\\day7\\views\\employee\\ajax.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0500A336-C5B4-4B9A-AF35-F6F0EC6B481D}|Day7.csproj|solutionrelative:views\\employee\\ajax.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +42,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_EmployeeCard.cshtml",
-              "DocumentMoniker": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day7\\Views\\Employee\\_EmployeeCard.cshtml",
-              "RelativeDocumentMoniker": "Views\\Employee\\_EmployeeCard.cshtml",
-              "ToolTip": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day7\\Views\\Employee\\_EmployeeCard.cshtml",
-              "RelativeToolTip": "Views\\Employee\\_EmployeeCard.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-13T11:51:48.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day7\\Views\\Employee\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Employee\\Index.cshtml",
-              "ToolTip": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day7\\Views\\Employee\\Index.cshtml",
-              "RelativeToolTip": "Views\\Employee\\Index.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABcAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-13T11:46:09.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day7\\Views\\Employee\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Employee\\Edit.cshtml",
-              "ToolTip": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day7\\Views\\Employee\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Employee\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-13T11:44:51.409Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day7\\Views\\Employee\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Employee\\Details.cshtml",
-              "ToolTip": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day7\\Views\\Employee\\Details.cshtml",
-              "RelativeToolTip": "Views\\Employee\\Details.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-13T11:44:27.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day7\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
-              "ToolTip": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day7\\Controllers\\EmployeeController.cs*",
-              "RelativeToolTip": "Controllers\\EmployeeController.cs*",
-              "ViewState": "AQIAAFwAAAAAAAAAAAA7wGgAAAAAAAAA",
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day7\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day7\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T11:39:33.351Z",
+              "WhenOpened": "2024-03-19T14:20:58.445Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day7\\Views\\Employee\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Employee\\Delete.cshtml",
-              "ToolTip": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day7\\Views\\Employee\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Employee\\Delete.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAKAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day7\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day7\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAADwvx4AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T14:16:29.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "New.cshtml",
+              "DocumentMoniker": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day7\\Views\\Dept\\New.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dept\\New.cshtml",
+              "ToolTip": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day7\\Views\\Dept\\New.cshtml",
+              "RelativeToolTip": "Views\\Dept\\New.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-13T11:34:48.229Z",
+              "WhenOpened": "2024-03-19T13:11:20.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day7\\Views\\Dept\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dept\\Index.cshtml",
+              "ToolTip": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day7\\Views\\Dept\\Index.cshtml",
+              "RelativeToolTip": "Views\\Dept\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T13:07:29.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DeptController.cs",
+              "DocumentMoniker": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day7\\Controllers\\DeptController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DeptController.cs",
+              "ToolTip": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day7\\Controllers\\DeptController.cs",
+              "RelativeToolTip": "Controllers\\DeptController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAIA5wBQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T12:53:21.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day7\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\Index.cshtml",
+              "ToolTip": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day7\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "Views\\Employee\\Index.cshtml",
+              "ViewState": "AQIAACwAAAAAAAAAAAAAADQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T12:34:37.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Ajax.cshtml",
+              "DocumentMoniker": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day7\\Views\\Employee\\Ajax.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\Ajax.cshtml",
+              "ToolTip": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day7\\Views\\Employee\\Ajax.cshtml",
+              "RelativeToolTip": "Views\\Employee\\Ajax.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACcAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T09:51:25.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day7\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day7\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAIA5wGcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T09:30:26.392Z",
               "EditorCaption": ""
             }
           ]
