@@ -1,0 +1,13 @@
+﻿@using Day8.IRepository
+@inject IStudentRepository stdRepo
+@{
+    ViewData["Title"] = "TestService";
+}
+
+<h1>Test Service</h1>
+
+<h3>Controller Services ID = @ViewBag.serviceId</h3>
+
+<br />
+
+<h3>View Service ID = @stdRepo.id</h3>
