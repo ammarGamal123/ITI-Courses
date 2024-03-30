@@ -1,0 +1,211 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day9\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB8FCAF-8CEF-44D7-8A31-80447A1076E5}|Day9.csproj|d:\\awork\\dotnet\\iti_courses\\mvc\\lessons\\day9\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB8FCAF-8CEF-44D7-8A31-80447A1076E5}|Day9.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB8FCAF-8CEF-44D7-8A31-80447A1076E5}|Day9.csproj|d:\\awork\\dotnet\\iti_courses\\mvc\\lessons\\day9\\controllers\\deptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB8FCAF-8CEF-44D7-8A31-80447A1076E5}|Day9.csproj|solutionrelative:controllers\\deptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB8FCAF-8CEF-44D7-8A31-80447A1076E5}|Day9.csproj|d:\\awork\\dotnet\\iti_courses\\mvc\\lessons\\day9\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB8FCAF-8CEF-44D7-8A31-80447A1076E5}|Day9.csproj|solutionrelative:repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB8FCAF-8CEF-44D7-8A31-80447A1076E5}|Day9.csproj|d:\\awork\\dotnet\\iti_courses\\mvc\\lessons\\day9\\repository\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB8FCAF-8CEF-44D7-8A31-80447A1076E5}|Day9.csproj|solutionrelative:repository\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB8FCAF-8CEF-44D7-8A31-80447A1076E5}|Day9.csproj|d:\\awork\\dotnet\\iti_courses\\mvc\\lessons\\day9\\repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB8FCAF-8CEF-44D7-8A31-80447A1076E5}|Day9.csproj|solutionrelative:repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB8FCAF-8CEF-44D7-8A31-80447A1076E5}|Day9.csproj|d:\\awork\\dotnet\\iti_courses\\mvc\\lessons\\day9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB8FCAF-8CEF-44D7-8A31-80447A1076E5}|Day9.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB8FCAF-8CEF-44D7-8A31-80447A1076E5}|Day9.csproj|d:\\awork\\dotnet\\iti_courses\\mvc\\lessons\\day9\\securitysteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB8FCAF-8CEF-44D7-8A31-80447A1076E5}|Day9.csproj|solutionrelative:securitysteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB8FCAF-8CEF-44D7-8A31-80447A1076E5}|Day9.csproj|d:\\awork\\dotnet\\iti_courses\\mvc\\lessons\\day9\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB8FCAF-8CEF-44D7-8A31-80447A1076E5}|Day9.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB8FCAF-8CEF-44D7-8A31-80447A1076E5}|Day9.csproj|d:\\awork\\dotnet\\iti_courses\\mvc\\lessons\\day9\\models\\itientities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB8FCAF-8CEF-44D7-8A31-80447A1076E5}|Day9.csproj|solutionrelative:models\\itientities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB8FCAF-8CEF-44D7-8A31-80447A1076E5}|Day9.csproj|d:\\awork\\dotnet\\iti_courses\\mvc\\lessons\\day9\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6BB8FCAF-8CEF-44D7-8A31-80447A1076E5}|Day9.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB8FCAF-8CEF-44D7-8A31-80447A1076E5}|Day9.csproj|d:\\awork\\dotnet\\iti_courses\\mvc\\lessons\\day9\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB8FCAF-8CEF-44D7-8A31-80447A1076E5}|Day9.csproj|solutionrelative:views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SecuritySteps.cs",
+              "DocumentMoniker": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day9\\SecuritySteps.cs",
+              "RelativeDocumentMoniker": "SecuritySteps.cs",
+              "ToolTip": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day9\\SecuritySteps.cs",
+              "RelativeToolTip": "SecuritySteps.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T00:17:35.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day9\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day9\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAkwBAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T00:16:06.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day9\\Repository\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\EmployeeRepository.cs",
+              "ToolTip": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day9\\Repository\\EmployeeRepository.cs",
+              "RelativeToolTip": "Repository\\EmployeeRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T22:58:28.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day9\\Repository\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\DepartmentRepository.cs",
+              "ToolTip": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day9\\Repository\\DepartmentRepository.cs",
+              "RelativeToolTip": "Repository\\DepartmentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T22:58:01.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day9\\Repository\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\StudentRepository.cs",
+              "ToolTip": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day9\\Repository\\StudentRepository.cs",
+              "RelativeToolTip": "Repository\\StudentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T22:46:59.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day9\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day9\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T22:10:20.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeptController.cs",
+              "DocumentMoniker": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day9\\Controllers\\DeptController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DeptController.cs",
+              "ToolTip": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day9\\Controllers\\DeptController.cs",
+              "RelativeToolTip": "Controllers\\DeptController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAkwAoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T00:14:42.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ITIEntities.cs",
+              "DocumentMoniker": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day9\\Models\\ITIEntities.cs",
+              "RelativeDocumentMoniker": "Models\\ITIEntities.cs",
+              "ToolTip": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day9\\Models\\ITIEntities.cs",
+              "RelativeToolTip": "Models\\ITIEntities.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T22:22:38.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day9\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day9\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAkwCgAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T22:16:21.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day9\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day9\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-29T22:10:36.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_NavBar.cshtml",
+              "DocumentMoniker": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day9\\Views\\Shared\\_NavBar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_NavBar.cshtml",
+              "ToolTip": "D:\\AWork\\DotNet\\ITI_Courses\\MVC\\Lessons\\Day9\\Views\\Shared\\_NavBar.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_NavBar.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACcAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-29T20:23:56.644Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

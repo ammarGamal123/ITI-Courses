@@ -1,0 +1,64 @@
+﻿@model List<Department>
+
+@{
+    SelectList deptList = new SelectList(Model, "Id", "Name");
+}
+<!--Strong Type View-->
+<!--List<Department>-->
+
+<h1>Index</h1>
+<a href="/Dept/New" style="font-size:30px; color:brown">New Department</a>
+
+<select name="Dept" id="Dept" class="form-control" 
+        asp-items="deptList"  onchange="GetEmployeesData()">
+    <option value="0">--Select Department--</option>
+</select>
+<ul id="empData"></ul> 
+<hr />
+<br /><br />
+
+<table style = "border:2px solid red" class ="table table-bordered table-hover">
+    <tr>
+        <th style="fon">
+            <b style="color:deeppink">Department Id</b>
+        </th>
+
+        <th style="fon">
+            <b style="color:deeppink">Department Name</b>
+        </th>
+
+        <th>
+            <b style="color:deeppink">Manager Name</b>
+        </th>
+    </tr>
+@foreach(var dept in Model)
+{
+    <tr>
+        <td>@dept.Id</td>
+        <td>@dept.Name</td>
+        <td>@dept.ManagerName</td>
+            
+    </tr>   
+}
+</table>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<script>
+    function GetEmployeesData(){
+        var deptId = document.getElementById("Dept").value;
+
+        $.ajax({
+            url: "/Dept/GetEmployees",
+            data: {"deptId" : deptId},
+            success: function (result) {
+                console.log(result);
+                document.getElementById("empData").innerHTML = "";
+                for (let emp of result){
+                    document.getElementById("empData").innerHTML +=
+                         "<li>" + emp.name + "</li>";
+                }
+            }
+        });
+    }
+</script>

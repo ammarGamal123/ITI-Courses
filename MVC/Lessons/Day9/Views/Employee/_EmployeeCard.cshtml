@@ -1,0 +1,11 @@
+﻿@model Employee
+
+<div class="card" style="width:400px">
+    <img class="card-img-top" alt="Card image" style="width:100%" />
+    <div class="card-body">
+        <h4 class="card-title">@Model.Name</h4>
+        <p class="card-text">@Model.Address</p>
+        <a asp-controller="Employee" asp-action="Index"
+           class="btn btn-primary">Back To Lit</a>
+    </div>
+</div>

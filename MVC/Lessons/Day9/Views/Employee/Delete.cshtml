@@ -1,0 +1,18 @@
+﻿@model Employee
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<!--Because we will be given Model.Id  -->
+<partial name="_EmployeeCard" model="Model"/>
+<!-- Form to submit the deletion -->
+<form method="post" asp-controller="Employee" asp-action="ConfirmDelete"
+        asp-route-id="@Model.Id">
+    <input type="hidden" name="id" value="@Model.Id" />
+    <button type="submit">Delete</button>
+</form>
+
+
+
