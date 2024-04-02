@@ -2,11 +2,13 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
-
+using Day1.DTOs;
+using Microsoft.EntityFrameworkCore;
+using Demo.DTOs;
 namespace Day1.Controllers
 {
     // Need Request Verb GET|POST|PUT|DELETE    
-    [Route("api/[controller]")] // Should be called = api/Department ===> Uniform Interface (UI) 
+    [Route("api/[controller]/[action]")] // Should be called = api/Department ===> Uniform Interface (UI) 
     [ApiController] // to distinguish that it's API Controller NOT MVC Controller
     public class DepartmentController : ControllerBase // response according to status Code
     {
@@ -29,13 +31,24 @@ namespace Day1.Controllers
         }
 
 
-        [HttpGet("{id:int}",Name ="GetOneDepartmentRoute")]
+        [HttpGet("{id:int}", Name = "GetOneDepartmentRoute")]
         //[Route("{id:int}")] // Route makes The difference Between 2 HttpGet
         public IActionResult ReadById(int id)
         {
-            Department department = context.Departments.FirstOrDefault(d => d.Id == id);
+            Department department = context.Departments.Include(d => d.Employees)
+                .FirstOrDefault(d => d.Id == id);
 
-            return Ok(department); // Response Body as Json
+
+            DepartmentDetailsWithEmployeesNameDTO deptDto = new DepartmentDetailsWithEmployeesNameDTO();
+            deptDto.Id = department.Id;
+            deptDto.DepartmentName = department.Name;
+            deptDto.DepartmentManager = department.Manager;
+            foreach (var item in department.Employees)
+            {
+                deptDto.EmployeesName.Add(item.Name);
+            }
+
+            return Ok(deptDto);
         }
 
 
@@ -75,6 +88,8 @@ namespace Day1.Controllers
         }
 
         
+
+        // Very Important to determine the route (expected parameter from route)
         // api/department/7
         [HttpPut("{id:int}")]
         //[FromRoute] ==> means id will be called from the route 
@@ -82,7 +97,7 @@ namespace Day1.Controllers
         {
             if (ModelState.IsValid)
             {
-                Department? oldDept = context.Departments.FirstOrDefault(d => d.Id == id);
+                Department oldDept = context.Departments.FirstOrDefault(d => d.Id == id);
 
                 oldDept.Name = newDepartment.Name;
                 oldDept.Manager = newDepartment.Manager;

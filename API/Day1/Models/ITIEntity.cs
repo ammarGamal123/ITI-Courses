@@ -18,5 +18,7 @@ namespace Day1.Models
         }
 
         public DbSet<Department> Departments { get; set; }
+
+        public DbSet<Employee> Employees { get; set; }
     }
 }
