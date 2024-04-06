@@ -135,3 +135,10 @@ D:\AWork\DotNet\ITI_Courses\API\Day1\obj\Debug\net8.0\refint\Demo.dll
 D:\AWork\DotNet\ITI_Courses\API\Day1\obj\Debug\net8.0\Demo.pdb
 D:\AWork\DotNet\ITI_Courses\API\Day1\obj\Debug\net8.0\Demo.genruntimeconfig.cache
 D:\AWork\DotNet\ITI_Courses\API\Day1\obj\Debug\net8.0\ref\Demo.dll
+D:\AWork\DotNet\ITI_Courses\API\Day1\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\AWork\DotNet\ITI_Courses\API\Day1\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\AWork\DotNet\ITI_Courses\API\Day1\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\AWork\DotNet\ITI_Courses\API\Day1\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\AWork\DotNet\ITI_Courses\API\Day1\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\AWork\DotNet\ITI_Courses\API\Day1\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\AWork\DotNet\ITI_Courses\API\Day1\bin\Debug\net8.0\Microsoft.Extensions.Options.dll

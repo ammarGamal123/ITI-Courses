@@ -1,4 +1,6 @@
-﻿namespace Day1.DTOs
+﻿using Day1.Models;
+
+namespace Day1.DTOs
 {
 
     // Hide the structure of the Model (More Secure)  

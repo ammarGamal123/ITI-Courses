@@ -23,6 +23,7 @@ namespace Day1.Controllers
         [HttpGet]
         public IActionResult Read()
         {
+           
             return Ok(context.Employees.Include(e => e.Department).ToList());
         }
 

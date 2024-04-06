@@ -1,8 +1,50 @@
 [
   {
+    "ContainingType": "Demo.Controllers.AccountController",
+    "Method": "Login",
+    "RelativePath": "api/Account/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDto",
+        "Type": "Demo.DTOs.LoginUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Demo.Controllers.AccountController",
+    "Method": "Registration",
+    "RelativePath": "api/Account/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDto",
+        "Type": "Demo.DTOs.RegisterUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Day1.Controllers.DepartmentController",
+    "Method": "Read",
+    "RelativePath": "api/Department",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Day1.Controllers.DepartmentController",
     "Method": "Create",
-    "RelativePath": "api/Department/Create",
+    "RelativePath": "api/Department",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -17,35 +59,9 @@
   },
   {
     "ContainingType": "Day1.Controllers.DepartmentController",
-    "Method": "Read",
-    "RelativePath": "api/Department/Read",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Day1.Controllers.DepartmentController",
     "Method": "ReadById",
-    "RelativePath": "api/Department/ReadById/{id}",
+    "RelativePath": "api/Department/{id}",
     "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Day1.Controllers.DepartmentController",
-    "Method": "Remove",
-    "RelativePath": "api/Department/Remove/{id}",
-    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -60,7 +76,7 @@
   {
     "ContainingType": "Day1.Controllers.DepartmentController",
     "Method": "Update",
-    "RelativePath": "api/Department/Update/{id}",
+    "RelativePath": "api/Department/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -73,6 +89,38 @@
       {
         "Name": "newDepartment",
         "Type": "Day1.Models.Department",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Day1.Controllers.DepartmentController",
+    "Method": "Remove",
+    "RelativePath": "api/Department/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Day1.Controllers.DepartmentController",
+    "Method": "ReadByName",
+    "RelativePath": "api/Department/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],

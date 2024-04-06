@@ -1,8 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Demo.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 
 namespace Day1.Models
 {
-    public class ITIEntity : DbContext
+    public class ITIEntity : IdentityDbContext<ApplicationUser>
     {
         // For Wizard 
         public ITIEntity()
@@ -12,7 +14,7 @@ namespace Day1.Models
 
 
         // For Injection
-        public ITIEntity(DbContextOptions dbContextOptions) : base(dbContextOptions)
+        public ITIEntity(DbContextOptions<ITIEntity> dbContextOptions) : base(dbContextOptions)
         {
             
         }

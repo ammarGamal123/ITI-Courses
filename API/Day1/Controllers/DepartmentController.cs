@@ -5,11 +5,13 @@ using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Day1.DTOs;
 using Microsoft.EntityFrameworkCore;
 using Demo.DTOs;
+using Microsoft.AspNetCore.Authorization;
 namespace Day1.Controllers
 {
     // Need Request Verb GET|POST|PUT|DELETE    
-    [Route("api/[controller]/[action]")] // Should be called = api/Department ===> Uniform Interface (UI) 
+    [Route("api/[controller]")] // Should be called = api/Department ===> Uniform Interface (UI) 
     [ApiController] // to distinguish that it's API Controller NOT MVC Controller
+    [Authorize]
     public class DepartmentController : ControllerBase // response according to status Code
     {
         private readonly ITIEntity context;
@@ -25,9 +27,26 @@ namespace Day1.Controllers
         [HttpGet]
         public IActionResult Read()
         {
-            List<Department> departmentList = context.Departments.ToList();
+            List<Department> departmentList = context.Departments
+                .Include(d => d.Employees).ToList();
 
-            return Ok(departmentList); // Response Body as a Json
+            List<GetDepartmentEmployeesDetailsDto> deptDtos = new List<GetDepartmentEmployeesDetailsDto>();
+
+            foreach (var department in departmentList)
+            {
+                var deptDto = new GetDepartmentEmployeesDetailsDto()
+                {
+                    DeptId = department.Id,
+                    DeptName = department.Name,
+                    DeptManager = department.Manager,
+                    // Get Employees Name 
+                    EmployeesName = department.Employees.Select(p => p.Name).ToList(),
+                };
+                deptDtos.Add(deptDto);
+            }
+
+
+            return Ok(deptDtos); // Response Body as a Json
         }
 
 
@@ -39,10 +58,10 @@ namespace Day1.Controllers
                 .FirstOrDefault(d => d.Id == id);
 
 
-            DepartmentDetailsWithEmployeesNameDTO deptDto = new DepartmentDetailsWithEmployeesNameDTO();
-            deptDto.Id = department.Id;
-            deptDto.DepartmentName = department.Name;
-            deptDto.DepartmentManager = department.Manager;
+            GetDepartmentEmployeesDetailsDto deptDto = new GetDepartmentEmployeesDetailsDto();
+            deptDto.DeptId = department.Id;
+            deptDto.DeptName = department.Name;
+            deptDto.DeptManager = department.Manager;
             foreach (var item in department.Employees)
             {
                 deptDto.EmployeesName.Add(item.Name);
